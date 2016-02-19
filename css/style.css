@@ -1,3 +1,6 @@
+.restuarant_title {
+	font-size:4em; margin: 0 6px;
+}
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -739,7 +742,7 @@ p.news_desc{
 }
 /*--footer--*/
 .footer_right{
-	padding:7em 12em 2em 7em;
+	padding:7em 5em 2em 5em;
 	background:#e9eae2;
 }
 .footer_left{
@@ -834,7 +837,7 @@ p.s_desc {
 	min-height: 560px;
 }
 .footer_right {
-	padding: 6em 5em 2em 6em;
+	padding: 6em 1em 2em 1em;
 }
 .fundue_right {
 	background: url(../images/fundue.jpg) no-repeat 194px 0px;
@@ -1306,6 +1309,9 @@ h2.studio_head {
 }
 }
 @media (max-width:320px){
+.restuarant_title {
+	font-size:3em; margin: 0 6px;
+}
 .headerleft_grid img {
 	width: 75px;
 }
@@ -1427,4 +1433,11 @@ h2.studio_head {
 .float_center {
 	margin: 0 auto;
 	display: block;
+}
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    /*border: 1px solid black;*/
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
