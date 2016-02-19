@@ -1,9 +1,3 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -41,6 +35,7 @@ ul.social {
 	padding: 0;
 	list-style: none;
 	margin-top:3em;
+	text-align: center;
 }
 ul.social li:first-child {
 	margin-left: 0;
@@ -102,7 +97,7 @@ a.boxclose{
 }
 .box_content_center{
 	background:#f8c255;
-	text-align: left;
+	/*text-align: left;*/
 }
 .menu_box_list{
 	display: inline-block;
@@ -138,7 +133,8 @@ a.boxclose{
 ul.nav_address{
 	padding: 0;
 	list-style: none;
-	margin: 5em 0 0 4em;
+	text-align: center;
+	margin: 3em 0 3em 0em;
 }
 ul.nav_address li, ul.nav_address1 li{
 	font-size: 0.8125em;
@@ -152,7 +148,7 @@ ul.nav_address1 li a{
 ul.nav_address1{
 	padding: 0;
 	list-style: none;
-	margin: 2em 0 0 9em;
+	margin: 1em 0 0 9em;
 }
 /*--projects--*/
 .projects{
@@ -160,14 +156,15 @@ ul.nav_address1{
 }
 .project_left {
 	background: url(../images/project_bg.jpg) no-repeat center top;
-	padding-top: 12em;
+	padding-top: 4em;
 	background-size: 100% 100%;
 	min-height: 520px;
 }
 ul.project_nav {
 	padding: 0;
 	list-style: none;
-	margin:0em 0 0 8em;
+	margin:0em 0 0 2em;
+	width: 50%;
 }
 ul.project_nav li a {
 	font-size: 0.8125em;
@@ -184,7 +181,7 @@ h1.project_head{
 	color: #fff;
 	font-size: 3em;
 	float: right;
-	margin:0.5em 1.5em 0 0;
+	margin:4em 0em 0 0;
 }
 .project_middle{
 	background:#fff;
@@ -344,7 +341,7 @@ ul.caption_right li.caption_heart{
 }
 .fiji {
 	background: url(../images/fiji.jpg) no-repeat center top #fff;
-	min-height: 281px;
+	min-height: 288px;
 	background-size: 100%;
 }
 ul.fiji_list{
@@ -453,7 +450,7 @@ h2.studio_head {
 	color: #fff;
 	font-size: 3em;
 	float: left;
-	margin:5em 0 0 5em;
+	margin:7em 0 0 5em;
 } 
 .studio_right{
 	background:#e9eae2;
@@ -843,7 +840,8 @@ p.s_desc {
 	background: url(../images/fundue.jpg) no-repeat 194px 0px;
 }
 ul.project_nav {
-	margin: 0em 0 0 6em;
+	margin: 0em 0 0 1em;
+	width: 50%;
 }
 }
 @media (max-width:1280px){
@@ -858,7 +856,7 @@ a.boxclose {
 	right: 10PX;
 }
 ul.project_nav {
-	margin: 0em 0 0 5em;
+	margin: 0em 0 0 1em;
 }
 h1.project_head, h2.studio_head{
 	font-size: 2.5em;
@@ -935,7 +933,7 @@ a.boxclose {
 	min-height: 400px;
 }
 ul.nav_address {
-	margin: 4em 0 0 3em;
+	/*margin: 4em 0 0 3em;*/
 }
 ul.nav_address1 {
 	margin: 1em 0 0 8em;
@@ -957,7 +955,7 @@ h1.project_head, h2.studio_head {
 	padding: 2em 0 0 2em;
 }
 .project_left {
-	padding-top: 9em;
+	padding-top: 3em;
 	min-height: 470px;
 }
 .project_middle {
@@ -1072,17 +1070,17 @@ ul.nav_address1 {
 	margin: 1em 0 0 16em;
 }
 ul.nav_address {
-	margin: 1em 0 0 12em;
+	/*margin: 1em 0 1em 0em;*/
 }
 .project_left {
 	padding-top:3em;
 	min-height: 300px;
 }
 ul.project_nav {
-	margin: 0em 0 0 16em;
+	margin: 0em 0 0 3em;
 }
 h1.project_head {
-	margin: 0.5em 7.5em 0 0;
+	margin: 0.5em 0em 0 0;
 }
 .headerleft_grid img {
 	width: 150px;
@@ -1168,7 +1166,7 @@ a.boxclose {
 }
 @media (max-width:640px){
 ul.nav_address {
-	margin: 1em 0 0 9em;
+	/*margin: 1em 0 1em 0em;*/
 }
 ul.nav_address1 {
 	margin: 0em 0 0 14em;
@@ -1213,6 +1211,13 @@ h2.studio_head {
 .headerleft_grid img {
 	width: 110px;
 }
+.headerleft_grid {
+	float: none;
+}
+#site_logo {
+	margin:0 auto;
+	display: block;
+}
 .chair span {
 	width: 260px;
 	height: 230px;
@@ -1225,16 +1230,16 @@ h2.studio_head {
 	right:3em;
 }
 ul.nav_address {
-	margin: 2em 0 0 4em;
+	/*margin: 2em 0 2em 0em;*/
 }
 ul.nav_address1 {
 	margin: 0em 0 0 9em;
 }
 ul.project_nav {
-	margin: 0em 0 0 8em;
+	margin: 0em 0 0 1em;
 }
 h1.project_head {
-	margin: 0.5em 3em 0 0;
+	margin: 0.3em 0em 0 0;
 }
 .fundue_left {
 	padding: 2em 0 0 1em;
@@ -1304,8 +1309,16 @@ h2.studio_head {
 .headerleft_grid img {
 	width: 75px;
 }
+.headerleft_grid {
+	float: none;
+}
+#site_logo {
+	margin:0 auto;
+	display: block;
+}
 ul.social {
 	display: none;
+	text-align: center;
 }
 .chair span {
 	width: 150px;
@@ -1325,7 +1338,7 @@ ul.social {
 	display: block;
 }
 ul.nav_address {
-	margin: 2em 0 0 0em;
+	/*margin: 2em 0 0 0em;*/
 }
 ul.nav_address1 {
 	margin: 0em 0 0 6em;
@@ -1398,4 +1411,20 @@ h2.studio_head {
 	background-size: 64%;
 	float:right;
 }
+}
+
+.content_middle {
+	background-color: #ff9b6d;
+}
+
+.black {
+	color: #000000;
+}
+
+.header {
+	background-color: #E9EAE2;
+}
+.float_center {
+	margin: 0 auto;
+	display: block;
 }
