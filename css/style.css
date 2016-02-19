@@ -1312,7 +1312,9 @@ address {
 }
 }
 @media (max-width:320px){
-
+.restaurant_description {
+	font-weight: 0.5em;
+}
 .restaurant_title {
 	font-size:3em; margin: 0 6px;
 }
