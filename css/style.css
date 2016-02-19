@@ -98,6 +98,9 @@ a.boxclose{
 	top: 1em;
 	right: 1em;
 }
+.content {
+	background-color: #EBB23F;
+}
 .box_content_center{
 	background:#f8c255;
 	/*text-align: left;*/
@@ -922,7 +925,7 @@ a#boxclose img {
 	margin: 18px 5px;
 }
 a.boxclose {
-	right: 4PX;
+	right: 4px;
 	top: 12px;
 }
 .box {
