@@ -1212,7 +1212,7 @@ h2.studio_head {
 	min-height:260px;
 }
 .headerleft_grid img {
-	width: 110px;
+	/*width: 110px;*/
 }
 .headerleft_grid {
 	float: none;
