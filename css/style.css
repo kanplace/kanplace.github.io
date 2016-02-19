@@ -1458,3 +1458,6 @@ div.transbox {
     opacity: 0.7;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
+.info1 span {
+	width: 100% !important;
+}
