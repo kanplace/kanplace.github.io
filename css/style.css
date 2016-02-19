@@ -1,4 +1,4 @@
-.restuarant_title {
+.restaurant_title {
 	font-size:4em; margin: 0 6px;
 }
 h4, h5, h6,
@@ -1313,7 +1313,7 @@ address {
 }
 @media (max-width:320px){
 
-.restuarant_title {
+.restaurant_title {
 	font-size:3em; margin: 0 6px;
 }
 .headerleft_grid img {
