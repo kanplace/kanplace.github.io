@@ -1466,6 +1466,7 @@ div.transbox {
 }
 .royalSlider {
 	background: white;
+	/*width:400px;*/
 }
 
 .rsDefaultInv, .rsDefaultInv .rsOverflow, .rsDefaultInv .rsSlide, .rsDefaultInv .rsVideoFrameHolder, .rsDefaultInv .rsThumbs {
@@ -1473,4 +1474,9 @@ div.transbox {
 }
 .red {
 	color:#EF705B;
+}
+ @media screen and (max-width: 600px) {
+ .royalSlider {
+   width: 350px !important;
+ }
 }
