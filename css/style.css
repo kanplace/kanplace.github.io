@@ -1471,3 +1471,6 @@ div.transbox {
 .rsDefaultInv, .rsDefaultInv .rsOverflow, .rsDefaultInv .rsSlide, .rsDefaultInv .rsVideoFrameHolder, .rsDefaultInv .rsThumbs {
 	background:white;
 }
+.red {
+	color:#EF705B;
+}
