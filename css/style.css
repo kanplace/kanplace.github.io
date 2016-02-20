@@ -1464,3 +1464,10 @@ div.transbox {
 .info1 span {
 	width: 100% !important;
 }
+.royalSlider {
+	background: white;
+}
+
+.rsDefaultInv, .rsDefaultInv .rsOverflow, .rsDefaultInv .rsSlide, .rsDefaultInv .rsVideoFrameHolder, .rsDefaultInv .rsThumbs {
+	background:white;
+}
