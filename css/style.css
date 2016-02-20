@@ -1482,6 +1482,6 @@ div.transbox {
 }
  @media screen and (max-width: 400px) {
  .royalSlider {
-   width: 200px !important;
+   width: 250px !important;
  }
 }
