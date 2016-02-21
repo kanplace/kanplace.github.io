@@ -460,7 +460,7 @@ h2.studio_head {
 } 
 .studio_right{
 	background:#e9eae2;
-	padding:5em 12em 5em 5em;
+	padding:5em 9em 5em 5em;
 }
 .col_1_of_middle:first-child {
 	margin-left: 0;
@@ -471,9 +471,16 @@ h2.studio_head {
 	margin: 0 0 0 6.6%;
 }
 .span_1_of_middle {
-	width: 46.7%;
+	/*width: 46.7%;*/
 }
-.span_1_of_middle h4{
+.span_1_of_middle p {
+    color: #000;
+    font-size: 1.1em;
+    margin-bottom: 5%;
+    line-height: 1.1em;
+    font-weight: 300;
+}
+.meeting_room h4{
 	color: #000;
 	font-size: 1.1em;
 	margin-bottom: 5%;
@@ -481,7 +488,7 @@ h2.studio_head {
 	line-height: 1.1em;
 	font-weight: 500;
 }
-.span_1_of_middle p{
+.meeting_room p{
 	color:#000;
 	font-size:1.1em;
 	margin-bottom: 5%;
@@ -880,7 +887,7 @@ ul.fiji_list {
 	min-height: 257px;
 }
 .studio_right {
-	padding: 4em 12em 5em 4em;
+	padding: 4em 9em 5em 4em;
 }
 .studio {
 	min-height: 578px;
@@ -1397,7 +1404,7 @@ h2.studio_head {
 	font-size: 1.5em;
 }
 .span_1_of_middle {
-	width: 100%;
+	/*width: 100%;*/
 }
 .col_1_of_middle {
 	float:none;
@@ -1465,7 +1472,7 @@ div.transbox {
 	width: 100% !important;
 }
 .royalSlider {
-	background: white;
+	/*background: white;*/
 }
 
 .rsDefaultInv, .rsDefaultInv .rsOverflow, .rsDefaultInv .rsSlide, .rsDefaultInv .rsVideoFrameHolder, .rsDefaultInv .rsThumbs {
@@ -1483,4 +1490,8 @@ div.transbox {
  .royalSlider {
    width: 260px !important;
  }
+}
+.new {
+	background-color: #E5E9DF;
+	padding:10px;
 }
